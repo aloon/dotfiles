@@ -20,3 +20,8 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 
 # Lock the screen (when going AFK)
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+alias sudo='sudo '
+alias connectvpn="/usr/local/sbin/openvpn --config ~/Box\ Sync/ovpn/_client.conf.ovpn"
+alias p="cd /Users/alejandro.gonzalez/Documents/Projects"
+alias simpleHttpServer='python -m SimpleHTTPServer 7000'
