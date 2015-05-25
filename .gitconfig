@@ -22,3 +22,5 @@
         co = checkout
         br = branch
         lol = log --abbrev-commit --graph --decorate --all --pretty=oneline
+[push]
+        default = simple
