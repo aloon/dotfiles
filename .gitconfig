@@ -19,6 +19,8 @@
         co = checkout
         br = branch
         lol = log --abbrev-commit --graph --decorate --all --pretty=oneline
+        empty = commit --allow-empty -m "Empty-Commit"
+        end = "!f() {BRANCH=`git symbolic-ref --short HEAD` && git co master && git pull && git br -d $BRANCH; }; f"
 
 [pull]
     rebase = false
